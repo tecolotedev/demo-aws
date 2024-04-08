@@ -1,0 +1,29 @@
+.task{
+    padding: 5px;
+    border-bottom: 1px solid #595959;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.5rem;
+    accent-color: #2196F3;
+    cursor: pointer;
+}
+
+.task-name{
+    width: 300px;
+}
+
+.task-name.checked{
+    text-decoration: line-through;
+}
+
+.delete-task{
+    color:  #2196F3;
+    padding:5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
